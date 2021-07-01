@@ -246,9 +246,9 @@ h4 {
 }
 
 .part8 {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   height: 100vh;
   background-image: url(jungle.jpg);
   background-repeat: no-repeat;
@@ -263,12 +263,41 @@ h4 {
   margin-left: 5vh;
   font-size: 3vh;
 }
-
-.pbox1 {
-  height: 60vh;
-  width: 45vh;
-  background-color: rgb(180, 43, 43);
-}
-.x {
+.mainpart {
   display: flex;
+  justify-content: center;
+}
+.partbox {
+  display: flex;
+}
+.partbox1 {
+  height: 64vh;
+  width: 45vh;
+  background-color: white;
+  color: #4c4c4c;
+  border-radius: 2vh;
+  margin: 5vh;
+  text-align: center;
+  font-size: 3vh;
+}
+.head {
+  color: green;
+  text-align: center;
+  padding: 4vh;
+}
+ul li {
+  list-style: none;
+  line-height: 5vh;
+}
+
+button {
+  padding: 2vh 3vh;
+  border-radius: 2vh;
+  background-color: rgb(65, 196, 65);
+  color: #fff;
+  font-size: 3vh;
+}
+button:hover {
+  background-color: black;
+  cursor: pointer;
 }
