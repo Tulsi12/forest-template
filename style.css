@@ -183,3 +183,92 @@ h4 {
 #boxpr {
   color: green;
 }
+
+.part5 {
+  height: 45vh;
+  /* background-color: rgb(168, 168, 168); */
+  background-color: rgb(81, 153, 81);
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  padding: 15vh;
+  font-size: 4vh;
+  color: white;
+}
+#rect {
+  color: black;
+  padding: 3vh 0;
+}
+.part6 {
+  display: flex;
+  justify-content: center;
+}
+.cont1 {
+  /* margin-right: 20vh 0 0 0; */
+  padding: 10vh 0 0 0vh;
+}
+.cont2 {
+  padding: 6vh 0 0 8vh;
+  font-size: 4vh;
+}
+#cont3 {
+  color: rgb(57, 155, 57);
+  font-size: 3vh;
+}
+.planting {
+  /* display: flex; */
+  margin-left: 25vh;
+  padding: 8vh;
+}
+
+.part7 {
+  display: flex;
+  justify-content: center;
+}
+.pbox {
+  height: 20vh;
+  width: 80vh;
+  background-color: white;
+  border-radius: 2vh;
+  margin-left: 15vh;
+
+  box-shadow: 2px 8px 25px 20px rgb(59, 57, 57);
+  /* overflow: hidden; */
+}
+#pbox1,
+#pbox2,
+#pbox3 {
+  margin: 7vh;
+}
+.side1 {
+  display: flex;
+  justify-content: center;
+}
+
+.part8 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url(jungle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh;
+  color: white;
+}
+.part81 {
+  margin-left: 60vh;
+}
+.part82 {
+  margin-left: 5vh;
+  font-size: 3vh;
+}
+
+.pbox1 {
+  height: 60vh;
+  width: 45vh;
+  background-color: rgb(180, 43, 43);
+}
+.x {
+  display: flex;
+}
