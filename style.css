@@ -301,3 +301,51 @@ button:hover {
   background-color: black;
   cursor: pointer;
 }
+.part9 {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 10vh;
+  margin-left: 35vh;
+}
+.bloghead {
+  display: flex;
+}
+.bloghead2 {
+  margin-left: 8vh;
+  font-size: 3vh;
+}
+#bhead1 {
+  font-size: 2vh;
+  color: rgb(74, 179, 74);
+}
+.mainblog {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh;
+}
+.blog1,
+.blog2,
+.blog3 {
+  height: 26vh;
+  width: 26vh;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 1vh;
+  border-color: whitesmoke;
+  box-shadow: 0 0 8px 1px rgb(143, 140, 140);
+  /* text-align: center; */
+}
+.bimg {
+  padding: 1vh 1vh 1vh 1vh;
+}
+.blogbox1,
+.blogbox2,
+.blogbox3 {
+  height: 62vh;
+  width: 50vh;
+  padding: 2vh;
+}
+#ted {
+  color: green;
+  font-size: 25px;
+}
