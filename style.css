@@ -349,3 +349,78 @@ button:hover {
   color: green;
   font-size: 25px;
 }
+.part10 {
+  height: 45vh;
+  background-color: rgb(76, 241, 76);
+  /* justify-content: center; */
+  text-align: center;
+}
+.btnplay button {
+  background-color: white;
+  color: black;
+}
+.btnplay :hover {
+  color: #fff;
+  background-color: black;
+}
+.pbtn,
+#x {
+  margin: 8vh;
+  border-radius: 10vh;
+  line-height: 5vh;
+  /* color: #292828; */
+}
+#save {
+  color: #fff;
+  font-size: 5vh;
+}
+.part11 {
+  margin-top: 4%;
+  text-align: center;
+}
+.text11 {
+  display: flex;
+}
+.ptext {
+  display: flex;
+  /* margin: 5%; */
+  margin-left: 20%;
+  /* text-align: ends; */
+}
+.ptext1 {
+  margin-left: 4%;
+  line-height: 25px;
+}
+.ptext1 p {
+  color: green;
+  font-size: 25px;
+}
+.ptext1 h1 {
+  font-size: 28px;
+}
+.mainphoto {
+  display: flex;
+  height: 500px;
+  width: 100%;
+
+  justify-content: space-evenly;
+}
+.photo1 {
+  height: 465px;
+  width: 15%;
+
+  margin: 5px;
+  /* overflow: hidden; */
+}
+.photo1 button {
+  background-color: black;
+  border-radius: 50px;
+  padding: 6px;
+}
+.photo1 button:hover {
+  background-color: #fff;
+  color: black;
+}
+.photo1 h3 {
+  color: green;
+}
