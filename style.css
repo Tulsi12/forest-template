@@ -424,3 +424,75 @@ button:hover {
 .photo1 h3 {
   color: green;
 }
+.forblog {
+  height: 800px;
+  width: 100%;
+
+  background-image: url(forimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.fortext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 50px;
+  color: #fff;
+}
+.fortext1 h5 {
+  color: green;
+  font-size: 25px;
+}
+.fortext h2 {
+  font-size: 50px;
+}
+.fortext2 {
+  padding-top: 15px;
+  margin-left: 25px;
+}
+.mainfly {
+  display: flex;
+  margin-right: 100px;
+}
+.butterfly {
+  margin: 20px;
+  margin-left: 100px;
+  height: 580px;
+  width: 28%;
+  background-color: #fff;
+  overflow: hidden;
+  line-height: 25px;
+}
+.butterflyimg {
+  height: 300px;
+  width: 90%;
+  margin: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  background-image: url(butterfly.jpg);
+  background-size: cover;
+}
+#fly2 {
+  background-image: url(forest.jpg);
+}
+#fly3 {
+  background-image: url(girl.jpg);
+}
+.butterfly h3 {
+  color: green;
+}
+.butterfly h3,
+.butterfly h2,
+.butterfly p {
+  margin-left: 20px;
+}
+.date {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.date2 {
+  margin-right: 15px;
+}
